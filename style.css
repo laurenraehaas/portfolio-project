@@ -1,0 +1,27 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    text-align: right;
+    flex-wrap: wrap;
+}
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+   
