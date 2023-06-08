@@ -3,30 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport">
-    <title>Challenge 02</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio</title>
     <link rel="reset-stylesheet" href="./reset.css"/>
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>My Portfolio<h1/>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
+                <li>
+                    <a href="#About-Me">About Me</a>
+                </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#Contact-Me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#Resume">Resume</a>
+                </li>
             </ul>
         </nav>
     </header>
+    <div class="hero"></div>
     <main>
-        <section>
-            <h2>About Me</h2>
-                <p> My name is Lauren Haas. I am a student in the UofM Coding Bootcamp, and plan to be done in August of 2023. </p>
-            <h2>My Work</h2>
-            <h2>Contact Info</h2>
-                <h3>Email: laurenraehaas@gmail.com</h3>
+        <section class="content">
+            <div class="about-me">
+                <h2>About Me</h2>
+                    <p> My name is Lauren Haas. I am a student in the UofM Coding Bootcamp, and plan to be done in August of 2023.</p>
+            </div>
+            <div class="work">
+                <h2>My Work</h2>
+                    <div class="parks">
+                        <a href="https://captainflint1715.github.io/Perusing-the-Parks/"><img= src="./images/mountain-sunset.jpg" alt="parks"></a>
+                    </div>
+                    <div class="homework-1">
+                        <a href="https://laurenraehaas.github.io/challenge-1/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-9uq2csP95E5UJ-Yefyxn4hjTLMwTpKBMD8zcNNT_EfyKrjCa" alt="meeting"></a>
+                    </div>
+            </div>
+            <div class="contact-me">
+                <h2>Contact Info</h2>
+                    <h3>Email: laurenraehaas@gmail.com</h3>
+                    <h3>GitHub: laurenraehaas</h3>
+            </div>
         </section>
     </main>
 </body>
