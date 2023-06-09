@@ -1,3 +1,4 @@
+/* general style start */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -41,12 +42,21 @@ body {
     margin-left: 25px;
 }
 
+/* body of the html */
+html, body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* content class */
 /* about me class */
 .about-me {
     padding: 50px;
+    padding-bottom: 100px;
     border-right: solid 5px lightskyblue;
-    width: 200px;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 0px;
+    
 }
 
 /* about me paragraph */
@@ -54,51 +64,79 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 24px;
-    margin-left: 300px;
-    width: 400px;
+    margin-left: 400px;
+    width: 600px;
     display: inline-block;
 }
 
 /* work class */
 .work {
     padding: 50px;
+    padding-bottom: 100px;
     border-right: solid 5px lightskyblue;
-    width: 200px;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 0px;
 }
 
 /* persuing the parks website */
 .work .parks {
-    margin-left: 300px;
+    margin-left: 400px;
     text-align: center;
     width: 300px;
     display: inline-block;
+    height: auto;
 }
 
+/* image for parks class */
+.work .parks img {
+    width: 700px;
+    padding: 15px;
+}
+/* subtitle for project 1*/
+.work .parks p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-bottom: 100px;
+    width: 550px;
+}
 /* homework 1 submission */
 .work .homework-1 {
-    margin-left: 300px;
+    margin-left: 400px;
     text-align: center;
-    width: 300px;
+    width: 300%;
     display: inline-block;
-    
+    height: auto;
+}
+
+/* image for homework-1 */
+.work .homework-1 img {
+    width: 300px;
+    padding: 15px;
+}
+
+/* subtitle for work */
+.work .homework-1 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 /* contact-me class */
 .contact-me {
     padding: 50px;
+    padding-bottom: 100px;
     border-right: solid 5px lightskyblue;
-    width: 200px;
-    border-radius: 10px;
+    width: 300px;
+    border-radius: 0px;
 }
 
 /* email and github account */
 .contact-me h3 {
-    margin-left: 300px;
+    margin-left: 400px;
     text-align: center;
-    width: 400px;
+    width: 550px;
     display: inline-block;
     text-decoration: underline lightskyblue 3px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
+    padding: 10px;
 }
